@@ -15,7 +15,7 @@ services:
     container_name: odoo_app
     depends_on:
       - db
-    port:
+    ports:
       - "8069:8069"
     environment:
       - HOST=db
